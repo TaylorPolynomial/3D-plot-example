@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from mpl_toolkits.mplot3d import Axes3D
 
-
+### Create a file path to the destination containing
 
 IEDF_DATA_PATH = '~/Microthrusters/IEDF/Energyprofile3D.csv'
 six = pd.read_csv(IEDF_DATA_PATH, header = 0, usecols = [1])
